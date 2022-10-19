@@ -6,7 +6,7 @@ on:
 jobs:
   display-variables:
     runs-on: ubuntu-latest
-    environment: dev
+    environment: TEST_ENV
     steps:        
     - name: Use variables
       run: |

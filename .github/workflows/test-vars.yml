@@ -13,4 +13,4 @@ jobs:
         echo "repo variable : ${{ vars.TEST_REPO_VAR }}"
         echo "org variable : ${{ vars.TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST_TEST }}"
         echo "overriden variable : ${{ vars.OVERRIDE_VAR }}"
-        echo "env variable : ${{ vars.test_env_1.TEST_ENV }}"
+        echo "env variable : ${{ vars.TEST_ENV }}"
